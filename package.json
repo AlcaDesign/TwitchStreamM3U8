@@ -1,0 +1,20 @@
+{
+  "name": "twitch-ascii",
+  "version": "1.0.0",
+  "description": "Stream a live Twitch stream to the terminal in ASCII form.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twitch",
+    "ascii",
+    "live",
+    "ffmpeg"
+  ],
+  "author": "Jacob \"Alca\" Foster",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
