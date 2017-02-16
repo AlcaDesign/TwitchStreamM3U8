@@ -2,7 +2,7 @@
   "name": "twitch-ascii",
   "version": "1.0.0",
   "description": "Stream a live Twitch stream to the terminal in ASCII form.",
-  "main": "cli.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
