@@ -1,16 +1,17 @@
 {
-  "name": "twitch-ascii",
+  "name": "twitch-stream-m3u8",
   "version": "1.0.0",
-  "description": "Stream a live Twitch stream to the terminal in ASCII form.",
+  "description": "Get a live Twitch stream playlist.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Twitch",
-    "ascii",
     "live",
-    "ffmpeg"
+    "m3u8",
+    "playlist",
+    "manifest"
   ],
   "author": "Jacob \"Alca\" Foster",
   "license": "MIT",
