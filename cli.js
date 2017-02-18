@@ -40,8 +40,8 @@ if(args.length === 0) {
 }
 
 let channel = args[0],
-	// Defaulst to "mobile" quality.
-	quality = args[1] || 'mobile';
+	// Defaulst to "chunked" quality.
+	quality = args[1] || 'chunked';
 
 // Main chain.
 _.getM3U8ForChannel(channel)
