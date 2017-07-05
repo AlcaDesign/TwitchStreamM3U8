@@ -80,7 +80,7 @@ function parseM3U8Comment(n) {
 	return n.split(':')[1]
 		.split(',')
 		.map(j => j.split('='))
-		.reduce((p, [key, value]) => {
+		.reduce((p, [key = '', value = '']) => {
 			let fixedKey = key.replace(/\-/g, '_').toLowerCase(),
 				fixedValue = value.replace(/^"(.*)"$/, '$1');
 			if(fixedValue === 'YES') {
