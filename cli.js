@@ -45,7 +45,7 @@ let channel = args[0],
 
 // Main chain.
 _.getM3U8ForChannel(channel)
-	.then(_.quality === 'list' ?
+	.then(quality === 'list' ?
 			_.getQualityList :
 			_.findByQuality.bind(null, quality)
 		)
