@@ -40,7 +40,7 @@ if(args.length === 0) {
 }
 
 let channel = args[0],
-	// Defaulst to "chunked" quality.
+	// Defaults to "chunked" quality.
 	quality = args[1] || 'chunked';
 
 // Main chain.
